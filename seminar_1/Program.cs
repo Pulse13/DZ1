@@ -1,19 +1,10 @@
-﻿Console.WriteLine("Введите три числа: ");
+﻿Console.WriteLine("Введите число: ");
 int f = Convert.ToInt32(Console.ReadLine());
-int a = Convert.ToInt32(Console.ReadLine());
-int b = Convert.ToInt32(Console.ReadLine());
-if (f>a && f>b)
+if (f%2 == 0)
 {
-    Console.WriteLine("max = " + f);
+    Console.WriteLine("Чётное число");
 }
 else
 {
-    if (a>b)
-    {
-        Console.WriteLine("max = " + a);
-    }
-    else
-    {
-        Console.WriteLine("max = " + b);
-    }
+    Console.WriteLine("Нечётное число");
 }
