@@ -1,10 +1,15 @@
-﻿Console.WriteLine("Введите число: ");
-int f = Convert.ToInt32(Console.ReadLine());
-if (f%2 == 0)
+﻿Console.WriteLine("N: ");
+int N = Convert.ToInt32(Console.ReadLine());
+int m = 1;
+while (m<N)
 {
-    Console.WriteLine("Чётное число");
-}
-else
-{
-    Console.WriteLine("Нечётное число");
+    if (m%2 == 0)
+    {
+        Console.Write(m + " ");
+        m+=1;
+    }
+    else
+    {
+        m+=1;
+    }
 }
